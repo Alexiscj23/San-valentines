@@ -53,7 +53,9 @@
     }
     .botones {
       display: flex;
-      gap: 20px;
+      justify-content: center;
+      gap: 50px; /* Mayor separación entre botones */
+      margin-top: 20px;
     }
     .boton-no {
       position: absolute;
@@ -62,6 +64,8 @@
     .contenido {
       display: none;
       padding: 20px;
+      overflow-y: auto;
+      height: 100vh;
     }
     /* Animación de corazones flotando */
     .corazones {
@@ -97,7 +101,7 @@
       grid-gap: 5px;
       justify-content: center;
       margin: 20px auto;
-      width: 310px; /* 3 * 100px + 2*5px */
+      width: 310px;
       height: 310px;
       border: 2px solid #b30000;
       padding: 5px;
@@ -127,6 +131,30 @@
     }
     .puzzle-piece.dragging {
       opacity: 0.5;
+    }
+    /* Sección de Perritos Enamorados */
+    #perritos {
+      margin-top: 40px;
+    }
+    #perritos h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .galeria img {
+      width: 300px;
+      max-width: 100%;
+      border: 3px solid #b30000;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -163,6 +191,16 @@
       <div id="puzzle-pieces"></div>
       <button id="check-puzzle" class="boton">Verificar rompecabezas</button>
       <p id="puzzle-message"></p>
+    </section>
+
+    <!-- Sección de Perritos Enamorados -->
+    <section id="perritos">
+      <h2>Perritos Enamorados</h2>
+      <p>Disfruta de estas tiernas imágenes de perritos en blanco y negro enamorados.</p>
+      <div class="galeria">
+        <img src="https://images.pexels.com/photos/1820081/pexels-photo-1820081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Perrito enamorado 1">
+        <img src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Perrito enamorado 2">
+      </div>
     </section>
 
     <audio autoplay loop>
@@ -209,7 +247,8 @@
     const pieceWidth = 100;
     const pieceHeight = 100;
     // Reemplaza la URL de abajo con la URL de tu foto en GitHub
-    const imageUrl='https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG_20190812_212839.jpg';
+    const imageUrl = 'https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG_20190812_212839.jpg
+      ';
 
     function setupPuzzle() {
       const puzzleBoard = document.getElementById('puzzle-board');
@@ -282,7 +321,7 @@
       }
     }
 
-    // Verificar si el rompecabezas está armado correctamente
+    // Verificar si el rompecabezas está armado correctamente y redirigir a la sorpresa
     document.getElementById('check-puzzle').addEventListener('click', () => {
       const cells = document.querySelectorAll('.puzzle-cell');
       let correct = 0;
@@ -297,6 +336,10 @@
       const message = document.getElementById('puzzle-message');
       if (correct === rows * cols) {
         message.textContent = "¡Correcto! Rompecabezas armado perfectamente. 💖";
+        // Redirigir a la página de sorpresa después de 3 segundos
+        setTimeout(() => {
+          window.location.href = 'sorpresa.html';
+        }, 3000);
       } else {
         message.textContent = `Faltan ${rows * cols - correct} piezas correctas. ¡Sigue intentando!`;
       }
