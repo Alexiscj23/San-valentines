@@ -233,60 +233,18 @@
           <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto7.jpg" alt="Foto 7">
           <div class="caption">Frase de amor 7</div>
         </div>
-        <!-- Slide 8: Video -->
-        <!-- Pantalla 4: Libro Interactivo (Slider) con espacios extra y video -->
-<div id="screen4" class="screen">
-  <h2>Recuerdos de Amor</h2>
-  <div class="slider">
-    <div class="slides">
-      <!-- Slide 1 -->
-      <div class="slide">
-        <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto1.jpg" alt="Foto 1">
-        <div class="caption">Frase de amor 1</div>
-      </div>
-      <!-- Slide 2 -->
-      <div class="slide">
-        <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto2.jpg" alt="Foto 2">
-        <div class="caption">Frase de amor 2</div>
-      </div>
-      <!-- Slide 3 -->
-      <div class="slide">
-        <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto3.jpg" alt="Foto 3">
-        <div class="caption">Frase de amor 3</div>
-      </div>
-      <!-- Slide 4 -->
-      <div class="slide">
-        <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto4.jpg" alt="Foto 4">
-        <div class="caption">Frase de amor 4</div>
-      </div>
-      <!-- Slide 5 -->
-      <div class="slide">
-        <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto5.jpg" alt="Foto 5">
-        <div class="caption">Frase de amor 5</div>
-      </div>
-      <!-- Slide 6: Imagen extra -->
-      <div class="slide">
-        <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto6.jpg" alt="Foto 6">
-        <div class="caption">Frase de amor 6</div>
-      </div>
-      <!-- Slide 7: Imagen extra -->
-      <div class="slide">
-        <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto7.jpg" alt="Foto 7">
-        <div class="caption">Frase de amor 7</div>
-      </div>
-      <!-- Slide 8: Video de Vimeo -->
-      <div class="slide">
-        <iframe src="https://player.vimeo.com/video/1055846561?h=9ffb873278" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%;"></iframe>
-        <div class="caption">Mi video especial de amor</div>
+        <!-- Slide 8: Video de Vimeo -->
+        <div class="slide">
+          <iframe src="https://player.vimeo.com/video/1055846561?h=9ffb873278" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%;"></iframe>
+          <div class="caption">Mi video especial de amor</div>
+        </div>
       </div>
     </div>
+    <div class="slider-controls">
+      <button onclick="prevSlide()">Anterior</button>
+      <button onclick="nextSlide()">Siguiente</button>
+    </div>
   </div>
-  <div class="slider-controls">
-    <button onclick="prevSlide()">Anterior</button>
-    <button onclick="nextSlide()">Siguiente</button>
-  </div>
-</div>
-
 
   <script>
     // Función para mostrar una pantalla y ocultar las demás
@@ -343,7 +301,7 @@
         cell.addEventListener('drop', drop);
         board.appendChild(cell);
       }
-      // Crear piezas del rompecabezas
+      // Crear las piezas del rompecabezas
       for (let r = 0; r < rows; r++) {
         for (let c = 0; c < cols; c++) {
           let index = r * cols + c;
