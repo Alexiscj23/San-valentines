@@ -236,7 +236,7 @@
         <!-- Slide 8: Video -->
         <div class="slide">
           <video width="100%" controls>
-            <source src="https://player.vimeo.com/video/1055846561?h=9ffb873278" type="video/mp4">
+            <source src="https://youtu.be/CKJ-LQ50Jsg?si=BVeqUGImFNDffjVm" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
           </video>
           <div class="caption">Mi video especial de amor</div>
