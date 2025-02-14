@@ -220,17 +220,17 @@
         </div>
         <!-- Slide 5 -->
         <div class="slide">
-          <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto5.jpg" alt="Foto 5">
+          <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/8f4883e4e86f935cef7086a618b16778.jpg" alt="Foto 5">
           <div class="caption">Frase de amor 5</div>
         </div>
         <!-- Slide 6: Imagen extra -->
         <div class="slide">
-          <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto6.jpg" alt="Foto 6">
+          <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG-20190224-WA0001.jpeg" alt="Foto 6">
           <div class="caption">Frase de amor 6</div>
         </div>
         <!-- Slide 7: Imagen extra -->
         <div class="slide">
-          <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto7.jpg" alt="Foto 7">
+          <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG_20241208_195826.jpg" alt="Foto 7">
           <div class="caption">Frase de amor 7</div>
         </div>
         <!-- Slide 8: Video de Vimeo -->
