@@ -17,7 +17,7 @@
     /* Pantalla 1: Pregunta inicial */
     #screen1 {
       display: block; /* Visible inicialmente */
-      background: url('https://images.pexels.com/photos/3755765/pexels-photo-3755765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center;
+      background: url('https://media.istockphoto.com/id/1409327967/es/vector/linda-pareja-de-dibujos-animados-con-conejos-blancos-sosteniendo-una-cerradura-y-una-llave.jpg?s=612x612&w=0&k=20&c=p1FdBDtdFePhc5BMMrWD6Q6EDS8dIZkACrxwLoSccJ0=') no-repeat center center;
       background-size: cover;
       text-align: center;
       color: white;
@@ -176,16 +176,16 @@
   <div id="screen2" class="screen">
     <img class="kitten" src="https://i.pinimg.com/originals/d9/11/a6/d911a60fbaef775210de355e75b10c25.gif" alt="Gatito dando besos">
     <div class="love-phrases">
-      "Tu amor me llena de alegría eres tan linda"<br>
-      "Eres mi sol en los días grises mi motivo para salir adelante"<br>
-      "Cada beso tuyo es un regalo"
+      "Tu amor me llena de alegría eres tan linda❤️"<br>
+      "Eres mi sol en los días grises mi motivo para salir adelante🌹"<br>
+      "Cada beso tuyo es un regalo extraño tus regalos😘"
     </div>
     <button onclick="goToScreen3()" style="font-size:24px; padding:10px 20px; border:none; border-radius:10px; background-color:#ff4d4d; color:white; cursor:pointer;">Continuar</button>
   </div>
 
   <!-- Pantalla 3: Rompecabezas -->
   <div id="screen3" class="screen">
-    <h2>Arma el rompecabezas</h2>
+    <h2>Arma el rompecabezas y forma el inicio de nuestro amor❤️🌹</h2>
     <p>Arrastra y suelta las piezas para formar la imagen.</p>
     <div id="puzzle-board"></div>
     <div id="puzzle-pieces"></div>
@@ -226,7 +226,7 @@
         <!-- Slide 6: Imagen extra -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG-20190224-WA0001.jpeg" alt="Foto 6">
-          <div class="caption">Cada instante lejos de ti me recuerda lo valioso que eres para mí</div>
+          <div class="caption">Cada instante lejos de ti me recuerda lo valiosa que eres para mí</div>
         </div>
         <!-- Slide 7: Imagen extra -->
         <div class="slide">
@@ -236,7 +236,7 @@
         <!-- Slide 8: Video de Vimeo -->
         <div class="slide">
           <iframe src="https://player.vimeo.com/video/1055846561?h=9ffb873278" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%;"></iframe>
-          <div class="caption">los momentos más lindos de mi vida los e pasado contigo</div>
+          <div class="caption">los momentos más lindos de mi vida los e pasado contigo no cave duda que eres y siempre serás lo mejor en mi vida y pronto estaremos juntos ❤️😘mi vida 😍</div>
         </div>
       </div>
     </div>
