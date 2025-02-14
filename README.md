@@ -201,42 +201,42 @@
         <!-- Slide 1 -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/Amor/refs/heads/main/IMG20241027184208_065344.jpg" alt="Foto 1">
-          <div class="caption">Frase de amor 1</div>
+          <div class="caption">Te extraño tanto, pero cada instante contigo queda grabado en mi corazón.</div>
         </div>
         <!-- Slide 2 -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/Amor/refs/heads/main/IMG_20241026_173212.jpg" alt="Foto 2">
-          <div class="caption">Frase de amor 2</div>
+          <div class="caption">Aunque estemos a kilómetros, tu amor ilumina mis días y hace más lindas mis noches</div>
         </div>
         <!-- Slide 3 -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/Amor/refs/heads/main/IMG_20241115_214336.jpg" alt="Foto 3">
-          <div class="caption">Frase de amor 3</div>
+          <div class="caption">La distancia no es nada comparada con la magia de nuestros momentos compartidos</div>
         </div>
         <!-- Slide 4 -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG-20241215-WA0032.jpg" alt="Foto 4">
-          <div class="caption">Frase de amor 4</div>
+          <div class="caption">Cada recuerdo contigo calienta mi alma, incluso cuando estás lejos, quisiera estar contigo </div>
         </div>
         <!-- Slide 5 -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/8f4883e4e86f935cef7086a618b16778.jpg" alt="Foto 5">
-          <div class="caption">Frase de amor 5</div>
+          <div class="caption">El amor verdadero trasciende la distancia, y el nuestro es eterno.</div>
         </div>
         <!-- Slide 6: Imagen extra -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG-20190224-WA0001.jpeg" alt="Foto 6">
-          <div class="caption">Frase de amor 6</div>
+          <div class="caption">Cada instante lejos de ti me recuerda lo valioso que eres para mí</div>
         </div>
         <!-- Slide 7: Imagen extra -->
         <div class="slide">
           <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG_20241208_195826.jpg" alt="Foto 7">
-          <div class="caption">Frase de amor 7</div>
+          <div class="caption">Mi corazón late por ti, sin importar la distancia que nos separa, te extraño mucho mi Jacky♥️</div>
         </div>
         <!-- Slide 8: Video de Vimeo -->
         <div class="slide">
           <iframe src="https://player.vimeo.com/video/1055846561?h=9ffb873278" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%;"></iframe>
-          <div class="caption">Mi video especial de amor</div>
+          <div class="caption">los momentos más lindos de mi vida los e pasado contigo</div>
         </div>
       </div>
     </div>
