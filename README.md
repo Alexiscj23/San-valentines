@@ -167,17 +167,17 @@
     <div class="question">¿Quieres ser mi San Valentín?</div>
     <div class="buttons">
       <button id="si" onclick="goToScreen2()">Sí</button>
-      <button id="no" onclick="alert('Oh, qué pena!')">No</button>
+      <button id="no" onclick="alert('Oh,lastima eso no se va a poder')">No</button>
     </div>
     <img class="teddy" src="https://media.giphy.com/media/10LKovKon8DENq/giphy.gif" alt="Osito amoroso">
   </div>
 
   <!-- Pantalla 2: Gatito, Frases y Corazones -->
   <div id="screen2" class="screen">
-    <img class="kitten" src="https://media.giphy.com/media/9o6wJbQ0Vb5U0/giphy.gif" alt="Gatito dando besos">
+    <img class="kitten" src="https://i.pinimg.com/originals/d9/11/a6/d911a60fbaef775210de355e75b10c25.gif" alt="Gatito dando besos">
     <div class="love-phrases">
-      "Tu amor me llena de alegría"<br>
-      "Eres mi sol en los días grises"<br>
+      "Tu amor me llena de alegría eres tan linda"<br>
+      "Eres mi sol en los días grises mi motivo para salir adelante"<br>
       "Cada beso tuyo es un regalo"
     </div>
     <button onclick="goToScreen3()" style="font-size:24px; padding:10px 20px; border:none; border-radius:10px; background-color:#ff4d4d; color:white; cursor:pointer;">Continuar</button>
@@ -200,22 +200,22 @@
       <div class="slides">
         <!-- Slide 1 -->
         <div class="slide">
-          <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto1.jpg" alt="Foto 1">
+          <img src="https://raw.githubusercontent.com/Alexiscj23/Amor/refs/heads/main/IMG20241027184208_065344.jpg" alt="Foto 1">
           <div class="caption">Frase de amor 1</div>
         </div>
         <!-- Slide 2 -->
         <div class="slide">
-          <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto2.jpg" alt="Foto 2">
+          <img src="https://raw.githubusercontent.com/Alexiscj23/Amor/refs/heads/main/IMG_20241026_173212.jpg" alt="Foto 2">
           <div class="caption">Frase de amor 2</div>
         </div>
         <!-- Slide 3 -->
         <div class="slide">
-          <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto3.jpg" alt="Foto 3">
+          <img src="https://raw.githubusercontent.com/Alexiscj23/Amor/refs/heads/main/IMG_20241115_214336.jpg" alt="Foto 3">
           <div class="caption">Frase de amor 3</div>
         </div>
         <!-- Slide 4 -->
         <div class="slide">
-          <img src="https://github.com/tuusuario/tu-repositorio/raw/main/foto4.jpg" alt="Foto 4">
+          <img src="https://raw.githubusercontent.com/Alexiscj23/San-valentines/refs/heads/main/IMG-20241215-WA0032.jpg" alt="Foto 4">
           <div class="caption">Frase de amor 4</div>
         </div>
         <!-- Slide 5 -->
